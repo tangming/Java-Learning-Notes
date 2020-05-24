@@ -113,14 +113,48 @@ String str6 = str + str2; // 常量池
 将字符串放入常量池的方法除了通过**使用字面量初始化**外，还可以通过String类的实例方法`intern()`。执行`intern()`方法时，若常量池中存在对应的字符串，有就返回引用；没有则会在常量池中添加一个对此字符串实例的引用，并返回。
 
 ********************************************************************************
-## 2. StringBuffer
-String对象是不可变的
-`StringBuffer`和`String`一样都是用来存储字符串的，只不过由于它们内部的实现方式不同，导致它们使用的范围不同。`StringBuffer`在处理字符串时并不会产生一个新的字符串对象。
+## 2. StringBuffer和StringBuilder
+String对象是不可变的，因此每次在对String类型进行修改的时候都创建了一个新的String对象，然后将指针指向新的String对象。这样不仅效率低，而且浪费了大量的内存空间。对于需要经常性修改字符串的操作，需要使用`StringBuffer`和`StringBuilder`这两个类。和String类不同的是，这两个类的对象能够被多次修改，并且不产生新的未使用的对象。
+
+### 2.1 StringBuffer的原理
+StringBuffer是可变类，它的每一对象都有一定的缓冲区容量，当字符串的大小没有超过缓冲区容量时，不会分配新的内存，超过时会自动增加容量。  
+// TODO：实现的函数
+
+### 2.1 StringBuffer和StringBuilder支持的API
+StringBuffer支持的主要操作是`append`和`insert`方法，`append`方法将新的字符添加到缓冲区的末端，`insert`方法将字符添加到指定位置。
+```
+public StringBuffer append(String s); // 在字符串结尾拼接
+public StringBuffer insert(int index, String str); // 在指定位置插入数据
+
+public StringBuffer delete(int start,int end); // 删除指定范围的字符
+public StringBuffer deleteCharAt(int index); // 删除指定位置的字符
+
+public StringBuffer reverse(); // 将字符序列进行反转
+
+```
+### 2.2 StringBuffer和StringBuilder的异同
+- StringBuffer和StringBuilder都继承自同一个抽象父类`AbstractStringBuilder`；
+- StringBuffer对方法加了同步锁或者对调用的方法加了同步锁，所以是线程安全的；StringBuilder是线程不安全的；
+- StringBuilder比StringBuffer的速度要快。
 
 ********************************************************************************
-## 3. StringBuilder
-
-
+## 3. Java String的常见问题
+- 字符串的比较，是使用`==`还是`equals()`？
+  > 简单来说，`==`判断的是两个引用变量中的值是否相等，也就是这两个引用是否指向同一个内存地址；`equals()`则判断的是字符串的值是否相等。除非确实要判断两个String引用是否是同一个对象，否则总该用`equals()`方法。
+- 对于敏感信息，为什么使用`char[]`比使用`String`好？
+  > String是不可变对象，而char[]是可以被修改的。因此，只要在使用完成后对char[]进行修改，敏感信息不容易在其他地方暴露。
+- switch语句能否支持String作为case条件？
+  > 从Java7开始，switch支持String类型；在Java6及以前的版本不支持。另外，在Java8中支持的类型包括byte，char，short，int，String，Enum。
+- 如何通过空白字符拆分字符串？
+  > String的`split(String str)`方法可以将str作为分隔符对字符串进行拆分，返回一个`String[]`。`“\s”`代表空白字符、`“\t”`代表制表符、换行`“\n”`以及回车`“\r”`，编译器对源码解析时需要进行转码，所以传入的字符串需要`“\\s”`。
+- `subString()`方法内部是如何工作的？
+  > 在JDK6中，共用原来的char[]数组，然后通过偏移和长度构建了一个新的String；JDK7中，则是常见了一个新的char[]。
+- 如何将String转化为日期？
+  > ```
+  > SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd);
+  > String str = "2020-05-24";
+  > Date date = format.parse(str);
+  > ```
 
 
 ## 参考文章 & 资源链接
