@@ -6,11 +6,38 @@ tags: [Java, 流程控制]
 categories: Java
 comments: true
 ---
-流程控制语句包括顺序结构、分支结构和循环结构，Java中流程控制的关键字有`if-else`、`while-do-while`、`for`、`switch-case`、`break`、`continue`、`return`等等。
+流程控制语句包括顺序结构、分支结构和循环结构。Java中流程控制的语句大致可分为三大类：
+- 选择语句
+  + if, else if, else
+  + switch...case 
+- 循环语句
+  + while
+  + do...while
+  + for
+  + foreach
+- 跳转语句
+  + return
+  + break
+  + continue
 <!-- more -->
 
 ********************************************************************************
-## 1.for-each和index-for
+## 1.循环语句
+### while循环
+只要布尔表达式为true，循环体就会一直执行下去。
+```
+while(布尔表达式) {
+    // 循环体
+}
+```
+### do...while循环
+对与while循环语句而言，如果不满足条件则不能进入循环。`do...while`循环至少会执行一次。
+```
+do {
+    // 循环体
+}while(布尔表达式);
+```
+### for-each和index-for
 Java中for循环有两种模式：
 ```
 // foreach
@@ -25,12 +52,17 @@ for (exp1;exp2;exp3) {
 - for-each语法上更加简洁，但是也缺失了索引信息；
 - for-each速度较快，只是对元素进行遍历优先用for-each。
 
+**NOTE:**
+> 不要在循环遍历容器的时候删除容器中的元素，正确做法是通过迭代器对元素进行修改。
+
 ********************************************************************************
-## 2.switch-case语句
-### 2.1 switch中支持的数据类型
-switch支持的数据类型有六中：byte、char、short、int、String、Enum。其实，真正支持的数据类型只有int，byte、char、short可以自动转换成int类型，enum可以表示为int，string的hashcode也是一个整型的数。
-### 2.2 switch中的default和break
-- default对应的是缺省情况，没有符合条件的情况下才执行，所以应该将default语句放到最后；
+## 2.选择语句
+对于`if...else`语句来说，当括号中的条件表达式成立，则执行`if`语句中的代码块，否则执行`else`中的代码块。`switch`语句判断一个变量与一系列值中的某一个值是否相等，每一个值称为一个分支。
+`switch`语句有如下的规则：
+- switch语句中的变量类型只能是byte、char、short、int、String、Enum。其实，真正支持的数据类型只有int，byte、char、short可以自动转换成int类型，enum可以表示为int，string的hashcode也是一个整型的数。
+- switch语句中可以有多个case语句，每个case后面跟一个比较变量和冒号。
+- case语句中值的类型必须与变量的数据类型相同，且只能是**常量**或**字面常量**。
+- switch语句可以包含一个default语句，对应是缺省情况，在没有符合条件的情况下才执行。default语句必须是switch语句的最后一个分支。
 - case匹配之后会顺序执行后面的代码，无论后面的case是否匹配，知道遇到break。
 
 ********************************************************************************
