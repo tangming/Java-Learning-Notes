@@ -2,7 +2,7 @@
 title: Java基本语言特性-面向对象编程
 date: 
 updated:
-tags: [数据类型]
+tags: [类]
 categories: Java
 comments: true
 ---
