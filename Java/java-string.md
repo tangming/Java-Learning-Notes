@@ -148,7 +148,7 @@ public StringBuffer reverse(); // 将字符序列进行反转
 - 如何通过空白字符拆分字符串？
   > String的`split(String str)`方法可以将str作为分隔符对字符串进行拆分，返回一个`String[]`。`“\s”`代表空白字符、`“\t”`代表制表符、换行`“\n”`以及回车`“\r”`，编译器对源码解析时需要进行转码，所以传入的字符串需要`“\\s”`。
 - `subString()`方法内部是如何工作的？
-  > 在JDK6中，共用原来的char[]数组，然后通过偏移和长度构建了一个新的String；JDK7中，则是常见了一个新的char[]。
+  > 在JDK6中，共用原来的char[]数组，然后通过偏移和长度构建了一个新的String；JDK7中，则是创建了一个新的char[]。
 - 如何将String转化为日期？
   > ```
   > SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd);
