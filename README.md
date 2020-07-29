@@ -7,6 +7,8 @@
 - [Java基本语言特性——流程控制](/Java/java-flow-control-statement.md)
 - [Java基本语言特性——面向对象编程](/Java/java-oop.md)
 
+- [Java语言特性——Stream](/Java/java-stream.md)
+
 ### 《Java8实战》读书笔记
 
 ## SpringBoot
