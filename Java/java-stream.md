@@ -180,8 +180,6 @@ public void test2() {
 }
 ```
 
-******
-
 ### 终止操作
 终止操作会从流的中间操作pipeline生成结果，其结果可以是任何不是流的值，如`List`、`Integer`，甚至是`void`。终止操作有**三类**：查找与匹配、归纳以及收集。
 
@@ -200,17 +198,50 @@ public void test() {
 ```
 
 **归纳操作**  
-归纳操作主要是将流中的各个元素结合起来，它需要提供一个起始值，然后按照一定规则进行运算，它接收一个二元操作的函数式接口。有以下两个方法：
-- `reducd(T den, BinaryOperator b)`
+归纳操作主要是将流中的各个元素结合起来，它需要提供一个起始值，然后按照一定规则进行运算，它接收一个二元操作的函数式接口。有以下三个重载：
+```Java
+T reduce(T identity, BinaryOperator<T> accumulator); // identity为提供的起始值，返回一个确定值
+Optional<T> reduce(BinaryOperator<T> accumulator); // 没有提供起始值，返回Optional防止流中没有足够的元素
+<U> U reduce(U identify, BiFunction<U,? super T,U> accumulator, BinaryOperator<U> combiner);
+```
+例如：
+```Java
+public void test() {
+    List<Integer> list = Arrays.asList(10，5,3,4);
+    Integer result = list.stream().reduce(2,Integer::sum); // 输出：2+10+5+3+4=24
+    Optional<Integer> optional = list.stream().reduce(Integer::sum);
+    Integer result = optional.get(); // 输出22=10+5+3+4
+}
+```
 
+**查找与匹配操作**
+查找与匹配的方法有：
+- `boolean allMatch(Predicate p)`：检查是否匹配所有元素
+- `boolean anyMatch(Predicate p)`：检查是否匹配至少一个元素
+- `boolean noneMatch(Predicate p)`：检查是否没有匹配元素
+- `Optional<T> findFirst()`：返回第一个元素
+- `Optional<T> findEnd()`：返回当前流中的任意元素
+- `long count()`：返回流中元素的总数
+- `Optional<T> max(Comparator c)`：返回流中最大值
+- `Optional<T> min(Comparator c)`：返回流中最小值
+- `void forEach(Consumer c)`：内部迭代
+例如：
+```Java
+public void test() {
+    List<Integer> list = Arrays.asList(10，5,3,4);
+    boolean allMatch = list.stream().allMatch(x->x>2); // 是否所有元素都大于2
+
+    Optional<Integer> first = list.stream().findFirst();
+    Integer val = first.get();
+
+    Integer maxVal = list.stream().max(Integer::compareTo).get();
+}
+```
 **Note：**
 > 从某种意义上来说，`min,max,sum,average`都是特殊的`reduce`。
 
-- void forEach(Consumer<? super T> action)：内部迭代
-
-
-## Fork/Join框架
-Fork/Join是Java中的并行任务框架，可以将任务fork为多个小任务，每个小任务执行完成后join为一个结果。在任务的执行过程中使用工作窃取(work-stealing)算法，减少线程之间的竞争。
 
 ## 参考文章&资源链接
+- [详解Java8特性之Stream API](https://juejin.im/entry/5b595bfc5188257bcc167251)
+- [Java 8 Streams API 详解](https://juejin.im/post/5dccc589f265da79245c81b3#heading-6)
 - [Java8 流式编程Stream](https://juejin.im/post/5d37bbd451882551c37fbc04)
