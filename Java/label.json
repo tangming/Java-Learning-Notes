@@ -1,0 +1,704 @@
+{
+	"labels": [
+		{
+			"name": "社会经济负担",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#065AE9"
+			}
+		},
+		{
+			"name": "生存时间",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#9315A6"
+			}
+		},
+		{
+			"name": "平均寿命",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#5326C2"
+			}
+		},
+		{
+			"name": "预后影响因素",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#DE121B"
+			}
+		},
+		{
+			"name": "治疗效果",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#3B9CF0"
+			}
+		},
+		{
+			"name": "治疗目标",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#726F62"
+			}
+		},
+		{
+			"name": "治疗相关并发症",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#E5DC8F"
+			}
+		},
+		{
+			"name": "不良反应或副作用",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#BD3279"
+			}
+		},
+		{
+			"name": "治疗注意事项",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#1C5075"
+			}
+		},
+		{
+			"name": "推荐等级",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#5AD309"
+			}
+		},
+		{
+			"name": "治疗禁忌",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#063007"
+			}
+		},
+		{
+			"name": "适应人群",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#C38FD8"
+			}
+		},
+		{
+			"name": "治疗指征",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#5444B1"
+			}
+		},
+		{
+			"name": "治疗机制",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#9429E0"
+			}
+		},
+		{
+			"name": "治疗疗程",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#1A6CCB"
+			}
+		},
+		{
+			"name": "治疗剂量",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#B61163"
+			}
+		},
+		{
+			"name": "治疗用法",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#CD6E22"
+			}
+		},
+		{
+			"name": "其他治疗",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#A94563"
+			}
+		},
+		{
+			"name": "基因疗法",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#E00F58"
+			}
+		},
+		{
+			"name": "外科手术治疗",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#724A2B"
+			}
+		},
+		{
+			"name": "药物治疗",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#5BB7D2"
+			}
+		},
+		{
+			"name": "治疗方法",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#C707E5"
+			}
+		},
+		{
+			"name": "危险分层标准评判条件",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#58B793"
+			}
+		},
+		{
+			"name": "危险等级",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#E4A6C4"
+			}
+		},
+		{
+			"name": "危险分层标准条目",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#2C6FA6"
+			}
+		},
+		{
+			"name": "危险分层标准",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#24C24B"
+			}
+		},
+		{
+			"name": "鉴别要点",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#74300A"
+			}
+		},
+		{
+			"name": "鉴别诊断病种",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#66A467"
+			}
+		},
+		{
+			"name": "诊断标准评判条件",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#408A92"
+			}
+		},
+		{
+			"name": "诊断等级",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#C706CB"
+			}
+		},
+		{
+			"name": "诊断标准条目",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#B9DC4B"
+			}
+		},
+		{
+			"name": "诊断标准",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#92B02B"
+			}
+		},
+		{
+			"name": "诊断金标准",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#139B3B"
+			}
+		},
+		{
+			"name": "诊断依据",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#23F059"
+			}
+		},
+		{
+			"name": "疑诊条件",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#720A79"
+			}
+		},
+		{
+			"name": "检查目的或意义",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#DD2C20"
+			}
+		},
+		{
+			"name": "遗传学检查",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#F624EB"
+			}
+		},
+		{
+			"name": "其他检查",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#CD5A24"
+			}
+		},
+		{
+			"name": "影像学检查",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#3E1F54"
+			}
+		},
+		{
+			"name": "病理检查",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#07FFC7"
+			}
+		},
+		{
+			"name": "实验室检查",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#D6C3FE"
+			}
+		},
+		{
+			"name": "体格检查",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#B94675"
+			}
+		},
+		{
+			"name": "并发症",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#993914"
+			}
+		},
+		{
+			"name": "合并症",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#CBDC62"
+			}
+		},
+		{
+			"name": "临床特点性质",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#3D3DB1"
+			}
+		},
+		{
+			"name": "其他特点",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#CAE0AB"
+			}
+		},
+		{
+			"name": "影像学特点",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#85A7B9"
+			}
+		},
+		{
+			"name": "组织病理特点",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#9C5A0B"
+			}
+		},
+		{
+			"name": "实验室检查结果",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#E388E8"
+			}
+		},
+		{
+			"name": "体征",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#5ECA9F"
+			}
+		},
+		{
+			"name": "临床症状",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#221D5C"
+			}
+		},
+		{
+			"name": "临床综合征或特定疾病实体",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#2531EC"
+			}
+		},
+		{
+			"name": "诱因",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#EF317E"
+			}
+		},
+		{
+			"name": "其他病因",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#B5EE1A"
+			}
+		},
+		{
+			"name": "变异蛋白",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#F316CE"
+			}
+		},
+		{
+			"name": "变异方式",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#531373"
+			}
+		},
+		{
+			"name": "染色体位点",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#404000"
+			}
+		},
+		{
+			"name": "基因",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#409189"
+			}
+		},
+		{
+			"name": "非致病遗传物质",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#5D859C"
+			}
+		},
+		{
+			"name": "致病染色体位点",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#C95D78"
+			}
+		},
+		{
+			"name": "致病基因",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#A6220F"
+			}
+		},
+		{
+			"name": "遗传方式",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#7E804E"
+			}
+		},
+		{
+			"name": "家族史",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#36B68E"
+			}
+		},
+		{
+			"name": "其他易感性",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#25CC84"
+			}
+		},
+		{
+			"name": "人种",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#07C1BF"
+			}
+		},
+		{
+			"name": "地域",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#718F09"
+			}
+		},
+		{
+			"name": "女男比",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#93D994"
+			}
+		},
+		{
+			"name": "男女比",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#EA71A5"
+			}
+		},
+		{
+			"name": "性别",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#7BE3F6"
+			}
+		},
+		{
+			"name": "年龄",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#A60C4D"
+			}
+		},
+		{
+			"name": "患病人数",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#CAB9AE"
+			}
+		},
+		{
+			"name": "患病率",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#5DB45F"
+			}
+		},
+		{
+			"name": "治疗有效率",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#B535B0"
+			}
+		},
+		{
+			"name": "基因频率",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#F4B875"
+			}
+		},
+		{
+			"name": "突变外显率",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#68310B"
+			}
+		},
+		{
+			"name": "患病率或人数",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#E3EA5A"
+			}
+		},
+		{
+			"name": "发病率",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#17B5BE"
+			}
+		},
+		{
+			"name": "比例",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#0B0B77"
+			}
+		},
+		{
+			"name": "频率",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#CD0BF4"
+			}
+		},
+		{
+			"name": "解剖结构改变",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#502DD9"
+			}
+		},
+		{
+			"name": "系统改变",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#018502"
+			}
+		},
+		{
+			"name": "器官改变",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#7DF06E"
+			}
+		},
+		{
+			"name": "组织改变",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#836B18"
+			}
+		},
+		{
+			"name": "细胞层面改变",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#EE0AA0"
+			}
+		},
+		{
+			"name": "亚细胞层面改变",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#466B2B"
+			}
+		},
+		{
+			"name": "分子层面改变",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#C647AD"
+			}
+		},
+		{
+			"name": "病理生理改变",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#E59A02"
+			}
+		},
+		{
+			"name": "时间或时期",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#E6AC9F"
+			}
+		},
+		{
+			"name": "解剖结构",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#C9D356"
+			}
+		},
+		{
+			"name": "系统",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#3995D2"
+			}
+		},
+		{
+			"name": "器官",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#EDE0A3"
+			}
+		},
+		{
+			"name": "组织",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#CB3B05"
+			}
+		},
+		{
+			"name": "细胞",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#BD3B3A"
+			}
+		},
+		{
+			"name": "亚细胞",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#757D20"
+			}
+		},
+		{
+			"name": "分子或蛋白",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#3DAB6A"
+			}
+		},
+		{
+			"name": "疾病亚型",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#6C206B"
+			}
+		},
+		{
+			"name": "疾病大类",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#3050D4"
+			}
+		},
+		{
+			"name": "疾病别称",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#85DFF2"
+			}
+		},
+		{
+			"name": "疾病编码",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#A4B549"
+			}
+		},
+		{
+			"name": "疾病",
+			"type": 101,
+			"property": {
+				"@modelarts:color": "#B63549"
+			}
+		}
+	]
+}
