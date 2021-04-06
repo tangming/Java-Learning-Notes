@@ -1,1 +1,1093 @@
 
+{
+	"labels": [
+		{
+			"name": "疾病出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "疾病出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "疾病出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "疾病出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "疾病出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "疾病出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "疾病出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "疾病出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "疾病出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病亚型",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "疾病出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病亚型",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "疾病出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病亚型",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "疾病出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病亚型",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "疾病出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病亚型",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "疾病出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病亚型",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "疾病出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病亚型",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "疾病出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "疾病亚型",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "改变出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "改变出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "改变出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "改变出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更早性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更晚性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "表现出现更早地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更晚地域为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "表现出现更早人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更晚人种为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "表现出现更早于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "表现出现更晚于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "其他易感性"
+			}
+		}
+	]
+}
