@@ -1,1 +1,748 @@
-
+{
+	"labels": [
+		{
+			"name": "变异发生在",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "亚细胞"
+			}
+		},
+		{
+			"name": "变异发生在",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "细胞"
+			}
+		},
+		{
+			"name": "变异发生在",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "组织"
+			}
+		},
+		{
+			"name": "变异发生在",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "器官"
+			}
+		},
+		{
+			"name": "变异发生在",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "系统"
+			}
+		},
+		{
+			"name": "变异发生在",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "解剖结构"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "变异导致",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "变异遗传方式为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "遗传方式"
+			}
+		},
+		{
+			"name": "基因频率为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "基因频率"
+			}
+		},
+		{
+			"name": "突变外显率为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "突变外显率"
+			}
+		},
+		{
+			"name": "变异占比为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "比例"
+			}
+		},
+		{
+			"name": "变异发生性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "仅发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "多发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "少发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "不发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异发生男女比为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "男女比"
+			}
+		},
+		{
+			"name": "变异发生女男比为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "女男比"
+			}
+		},
+		{
+			"name": "变异发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "仅发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "多发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "少发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "不发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "仅发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "多发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "少发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "不发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异易感于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "不易感于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "变异方式",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "基因频率为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "基因频率"
+			}
+		},
+		{
+			"name": "变异方式为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "变异方式"
+			}
+		},
+		{
+			"name": "突变外显率为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "突变外显率"
+			}
+		},
+		{
+			"name": "变异占比为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "比例"
+			}
+		},
+		{
+			"name": "变异发生性别为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "仅发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "多发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "少发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "不发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异发生男女比为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "男女比"
+			}
+		},
+		{
+			"name": "变异发生女男比为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "女男比"
+			}
+		},
+		{
+			"name": "变异发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "仅发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "多发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "少发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "不发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "仅发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "多发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "少发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "不发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异易感于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "不易感于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "遗传方式",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "变异仅发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异多发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异少发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异不发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异仅发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异多发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异少发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异不发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异仅发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异多发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异少发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异不发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异不易感于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病基因",
+				"@modelarts:to_type": "其他易感性"
+			}
+		},
+		{
+			"name": "变异仅发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异多发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异少发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异不发生于性别",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "性别"
+			}
+		},
+		{
+			"name": "变异仅发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异多发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异少发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异不发生于地域",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "地域"
+			}
+		},
+		{
+			"name": "变异仅发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异多发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异少发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异不发生于人种",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "人种"
+			}
+		},
+		{
+			"name": "变异不易感于",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "致病染色体位点",
+				"@modelarts:to_type": "其他易感性"
+			}
+		}
+	]
+}
