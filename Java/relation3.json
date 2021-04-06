@@ -1,1 +1,3484 @@
-
+{
+	"labels": [
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床综合征或特定疾病实体",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "临床症状",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "体征",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "实验室检查结果",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织病理特点",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "影像学特点",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "其他特点",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "病理生理改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "分子层面改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "亚细胞层面改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "细胞层面改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "组织改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "器官改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "系统改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "临床综合征或特定疾病实体"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "临床症状"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "体征"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "实验室检查结果"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "组织病理特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "影像学特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "其他特点"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "病理生理改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "分子层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "亚细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "细胞层面改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "组织改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "器官改变"
+			}
+		},
+		{
+			"name": "包括",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "系统改变"
+			}
+		},
+		{
+			"name": "表现为",
+			"type": 102,
+			"property": {
+				"@modelarts:from_type": "解剖结构改变",
+				"@modelarts:to_type": "解剖结构改变"
+			}
+		}
+	]
+}
